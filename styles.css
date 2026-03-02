@@ -1,0 +1,89 @@
+:root {
+  color-scheme: light;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  background: linear-gradient(135deg, #e3f2fd, #f5f5f5);
+}
+
+.card {
+  width: min(92vw, 420px);
+  background: #ffffff;
+  border-radius: 14px;
+  box-shadow: 0 14px 30px rgba(0, 0, 0, 0.12);
+  padding: 1.5rem;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+p {
+  margin-top: 0;
+  color: #4a5568;
+}
+
+.calculator {
+  display: grid;
+  gap: 0.5rem;
+  margin-top: 1rem;
+}
+
+label {
+  font-weight: 600;
+  color: #2d3748;
+}
+
+input,
+button {
+  font-size: 1rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 8px;
+}
+
+input {
+  border: 1px solid #cbd5e0;
+}
+
+input:focus {
+  outline: 2px solid #63b3ed;
+  border-color: transparent;
+}
+
+button {
+  margin-top: 0.5rem;
+  border: 0;
+  background: #3182ce;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #2b6cb0;
+}
+
+.result {
+  margin-top: 1.25rem;
+  background: #f7fafc;
+  border-radius: 8px;
+  padding: 0.9rem;
+}
+
+.result h2 {
+  margin: 0 0 0.4rem;
+  font-size: 1.05rem;
+}
+
+#message {
+  margin: 0;
+  color: #1a202c;
+  font-weight: 600;
+}
